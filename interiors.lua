@@ -445,6 +445,11 @@ RequestImap(-1543080891)
 RequestImap(-1696865897)
 --#### End of Misc ####--
 
+--#### Gus Locations ####--
+RequestImap(-820186598)       -- Elysian Pool -- Gus Spot
+--RequestImap(1615859164)     -- Elysian Pool -- Gus Spot LOD
+RequestImap(743168245)        -- Elysian Pool -- Nearby stump with lockbox in it
+--#### End of Gus Locations ####--
 
 --#### Boats ####--
 RequestImap(-614421509)   -- Casino boat -- Shell
@@ -468,12 +473,65 @@ RemoveImap(45121961)    -- Utopia River -- Wagon Crash -- StrongBox
 
 --#### Lemoyne ####--
 --## Saint Denis ##--
+RemoveImap(1048677741)    -- Lemoyne -- Saint Denis -- Train Station 2 Parked Train Detailed
+RemoveImap(1263227745)    -- Lemoyne -- Saint Denis -- Train Station 2 Parked Train LOD
+RemoveImap(-2035101386)    -- Lemoyne -- Saint Denis -- Train Station 2 Parked Train Occlusion
+RemoveImap(1946327170)    -- Lemoyne -- Saint Denis -- Train Station Parked Train LOD
+RemoveImap(1284188544)    -- Lemoyne -- Saint Denis -- Train Station Parked Train Detail
+RemoveImap(1520435387)    -- Lemoyne -- Saint Denis -- Train Station Parked Train Occlusion
+RequestImap(-508629483)   -- Lemoyne -- Saint Denis -- Train Station Details
+RequestImap(-898730485)   -- Lemoyne -- Saint Denis -- Train Station Occlusion 
+RequestImap(497547467)    -- Lemoyne -- Saint Denis -- Post Office Interior
+RemoveImap(489834626)     -- Lemoyne -- Saint Denis -- Post Office Signage
+RemoveImap(146172383)     -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Gangplank Main Details
+RemoveImap(291732199)     -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Gangplank LOD
+RemoveImap(1417687142)    -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Gangplank Secondary Details
+RemoveImap(-531219857)    -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Gangplank Secondary LOD
+RemoveImap(1859948183)    -- Lemoyne -- Saint Denis -- Docks -- Random Gray Square inside Poker Boat?
+RemoveImap(-1792518688)   -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Main Entrance LOD
+RemoveImap(1157695860)    -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Doors
+RemoveImap(-873881483)    -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Upper Deck Interior
+RemoveImap(160952444)     -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Upper Deck Interior LOD
+RemoveImap(881979872)     -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Interior
+RemoveImap(1473876796)    -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Shell LOD?
+RemoveImap(1056170594)    -- Lemoyne -- Saint Denis -- Docks -- Poker Boat Shell Detialed
+--RequestImap(-645247737)   -- Lemoyne -- Saint Denis -- UNKNOWN
+RequestImap(-1461530058)  -- Lemoyne -- Saint Denis -- Meat Market -- Meats on Shelf
+RequestImap(-469909433)   -- Lemoyne -- Saint Denis -- Meat Market -- Single Meat on Shelf right side
+RequestImap(1509141447)   -- Lemoyne -- Saint Denis -- Meat Market -- Single Meat on Shelf left side
+RequestImap(-30157790)    -- Lemoyne -- Saint Denis -- Meat Market -- Various Hanging Meats
+RemoveImap(1355914142)    -- Lemoyne -- Saint Denis -- By Meat Market -- Wool Filled Wagon
+RemoveImap(148905841)     -- Lemoyne -- Saint Denis -- By Meat Market -- Wool Filled Wagon LOD
+RemoveImap(-359734366)    -- Lemoyne -- Saint Denis -- Tracks towards Annesburg -- Wagon next to Tracks
+RequestImap(165972019)     -- Lemoyne -- Saint Denis -- Tracks towards Annesburg -- Building Under Construction Details
+RemoveImap(-1036688493)   -- Lemoyne -- Saint Denis -- Tracks towards Annesburg -- Building Under Construction Details Planks
+RemoveImap(1850497361)    -- Lemoyne -- Saint Denis -- Tracks towards Annesburg -- Building Under Construction LOD
+RemoveImap(1710784888)    -- Lemoyne -- Saint Denis -- Tracks towards Annesburg -- Building Under Construction LOD v2
 RemoveImap(-1221875648)   -- Lemoyne -- Saint Denis -- Fire at Coffery Ranch
 RemoveImap(-2093605706)   -- Lemoyne -- Saint Denis 
 RemoveImap(-342806042)    -- Lemoyne -- Saint Denis -- Tram Wreck
 RemoveImap(1255880931)    -- Lemoyne -- Saint Denis -- Wreckage from the Tram
 RemoveImap(2070068088)    -- Lemoyne -- Saint Denis 
 RemoveImap(220493865)     -- Lemoyne -- Saint Denis 
+RequestImap(-1593790123)   -- Lemoyne -- Saint Denis -- Graveyard -- Closed Casket
+RemoveImap(-741366935)    -- Lemoyne -- Saint Denis -- Graveyard -- Tomb Extra Door
+RemoveImap(-595698218)    -- Lemoyne -- Saint Denis -- Graveyard -- Second Casket
+RequestImap(-1988547294)  -- Lemoyne -- Saint Denis -- Shop Details near Bank
+--RemoveImap(-2124415277) -- Lemoyne -- Saint Denis -- Gallows Electric Chair
+RequestImap(1829082995)   -- Lemoyne -- Saint Denis -- Bank --  Interior Details
+RemoveImap(-604091710)    -- Lemoyne -- Saint Denis -- Bank --  Bars on windows
+RemoveImap(-1026473536)   -- Lemoyne -- Saint Denis -- Bank --  Random Gray Triangle thing
+RequestImap(1017355491)   -- Lemoyne -- Saint Denis -- Bank -- Regular wall
+RemoveImap(-920505696)    -- Lemoyne -- Saint Denis -- Bank -- Bank Heist Wall Hole 
+--RequestImap(995510724)    -- Lemoyne -- Saint Denis -- Bank -- UKNOWN
+--RequestImap(1193981581)    -- Lemoyne -- Saint Denis -- Bank -- UKNOWN
+RemoveImap(876228895)     -- Lemoyne -- Saint Denis -- Docks   -- Various Crates
+RemoveImap(1112455558)    -- Lemoyne -- Saint Denis -- Docks   -- Various Crates LOD
+RemoveImap(-74986722)     -- Lemoyne -- Saint Denis -- Docks   -- Crate LOD's under Tent
+RemoveImap(1078633574)    -- Lemoyne -- Saint Denis -- Docks   -- Crate Detailed under Tent
+RequestImap(1305074360)   -- Lemoyne -- Saint Denis -- Docks   -- Tables under Tent at Docks
+RemoveImap(-928815382)    -- Lemoyne -- Saint Denis -- Docks   -- Dust/Fog Effects on Train Tracks
+RemoveImap(-2084311522)   -- Lemoyne -- Saint Denis -- Alley Near Train Station -- Boxes blocking Alleyway
 RemoveImap(281772765)     -- Lemoyne -- Saint Denis -- Streets -- Crates #1
 RemoveImap(490883533)     -- Lemoyne -- Saint Denis -- Streets -- Crates #2
 RequestImap(-226455701)   -- Lemoyne -- Saint Denis -- Police Office -- Bounty Board
@@ -495,7 +553,35 @@ RequestImap(-1267247536)  -- Lemoyne -- Saint Denis -- Fantana Theatre -- sign o
 --RemoveImap(481139295)     -- Lemoyne -- Saint Denis -- Hotel Chevalier -- scaffolding and grand opening soon sing
 RequestImap(-274080837)   -- Lemoyne -- Saint Denis -- Hotel Chevalier -- fixed hole in wall
 --## Rhodes ##--
+--RequestImap(-132058962) -- Lemoyne -- Ground Coverage
+--RequestImap(2028693982) -- Lemoyne -- Grass Patches Coverage
+--RequestImap(-421673531) -- Lemoyne -- Grass Patches Coverage outside Rhodes
+--RequestImap(1719289084) -- Lemoyne -- Grass Patches Coverage outside Rhodes 2
+--RequestImap(-1392785275)-- Lemoyne -- Ground Coverage LOD
+RemoveImap(-1256604002)-- Lemoyne -- More Tree's and Foliage for all of Lemoyne
+--RequestImap(-1643045897) -- Lemoyne -- Buildings -- All Buildings LOD
+--RequestImap(-1741130778)-- Lemoyne -- Buildings -- All Buildings LOD 2
+--RequestImap(-1146937980) -- Lemoyne -- Buildings -- All Buildings LOD 3
+--RequestImap(222150840) -- Lemoyne -- Buildings -- All Buildings LOD 3
+--RequestImap(-458056555) -- Lemoyne -- Buildings -- All Buildings LOD 4
+--RequestImap(1751175954) -- Lemoyne -- Buildings -- All Buildings LOD 5
+--RequestImap(39824124) -- Lemoyne -- Buildings -- All Buildings LOD 6
+--RemoveImap(-1671953459) -- Lemoyne -- Buildings -- Gunsmith -- Window Bars
+RequestImap(1343484786)   -- Lemoyne -- Rhodes -- Building Doors/Props 
+RequestImap(753596748)   -- Lemoyne -- Rhodes -- Saloon -- Plants Hanging and Potted
+RemoveImap(1193480106) -- Lemoyne -- Rhodes -- Sheriff and Gunsmith Window Shutters
 RemoveImap(1817836578)   -- Lemoyne -- Rhodes -- Sheriffs Office -- Bounty Board
+--RemoveImap(349486662)      -- Lemoyne -- Rhodes -- Sheriffs Office -- Hole in Wall Left Side
+--RemoveImap(-1452926611)-- Lemoyne -- Rhodes -- Sheriffs Office -- Hole in Wall Left Side LOD
+--RequestImap(-485651612) -- Lemoyne -- Rhodes -- Sheriffs Office -- LOD Texture only
+--RemoveImap(1982066530)  -- Lemoyne -- Rhodes -- Sheriffs Office -- Interior Details
+RequestImap(1603294144) -- Lemoyne -- Rhodes -- Sheriffs Office -- Messed up wall on Left side
+--RequestImap(2107657444) -- Lemoyne -- Rhodes -- Wool Mill -- Stack of Wool Detailed
+--RequestImap(-958046355) -- Lemoyne -- Rhodes -- Wool Mill -- Stack of Wool Detailed
+--RequestImap(-2023595928)-- Lemoyne -- Rhodes -- Wool Mill -- Stack of Wool LOD
+--RequestImap(1880827833) -- Lemoyne -- Rhodes -- Wool Mill -- Stack of Wool LOD 2
+--RequestImap(2057239183) -- Lemoyne -- Rhodes -- Wool Mill -- Stack of Wool LOD 3
+--RequestImap(-2008992782)-- Lemoyne -- Rhodes -- Wool Mill -- Stack of Wool LOD 4
 RemoveImap(-759698431)    -- Lemoyne -- Rhodes -- Streets -- Fast Travel
 RemoveImap(945502524)     -- Lemoyne -- Rhodes -- Streets -- Stump Seat
 RemoveImap(1033721560)    -- Lemoyne -- Rhodes -- Streets -- Props (barrels, Cart, Crates, Fuit boxes)
@@ -503,6 +589,17 @@ RemoveImap(1989074279)    -- Lemoyne -- Rhodes -- Streets -- Props (boxes & barr
 RequestImap(-2144587490)  -- Lemoyne -- Rhodes -- Cemetery -- Covers small plot hole with mound of dirt
 RequestImap(-1366431554)  -- Lemoyne -- Rhodes -- Cemetery -- Covers Large hole with grass patch
 RemoveImap(-158824350)    -- Lemoyne -- Rhodes -- Cemetery -- Dirt in Small Plot (visually can't see it)
+RequestImap(518127510)    -- Lemoyne -- Rhodes --    Bank  -- Proper Wall Detailed
+RequestImap(828093818)    -- Lemoyne -- Rhodes --    Bank  -- Proper Wall LOD
+--RemoveImap(758684739)     -- Lemoyne -- Rhodes --    Bank  -- Hole in Wall
+--RemoveImap(1570711119)    -- Lemoyne -- Rhodes --    Bank  -- Hole in Wall LOD
+--RemoveImap(-661825463)    -- Lemoyne -- Rhodes --    Bank  -- Hole in Wall Debris
+--RequestImap(1609358819) -- Lemoyne -- Rhodes --Train Station -- Building LOD
+--RemoveImap(-518360377)    -- Lemoyne -- Rhodes --Train Station -- Building Details
+--RequestImap(1127809203) -- Lemoyne -- Rhodes --    Bank  -- UNKNOWN
+--RequestImap(-1721437778) -- Lemoyne -- Rhodes --    Bank  -- UNKNOWN
+--RemoveImap(-406964748)  -- Lemoyne -- Rhodes --   Saloon  -- Blocks Doors/Closed Sign
+--RemoveImap(1177489984)  -- Lemoyne -- Rhodes --   Saloon  -- Interior Details
 -- Rhodes Camp --
 RemoveImap(-159557995)    -- Lemoyne -- Rhodes Camp -- Two Tents, Wagon, Chairs
 RemoveImap(1313890873)    -- Lemoyne -- Rhodes Camp -- Small Camp in the Woods Just North of Dutch's Rhodes Base
@@ -532,6 +629,11 @@ RemoveImap(1284656212)    -- Lemoyne -- Caliga Hall -- Grey Estates -- Burning S
 RemoveImap(-1162161651)   -- Lemoyne -- Caliga Hall -- Grey Estates -- Fields on fire
 RemoveImap(557212279)     -- Lemoyne -- Caliga Hall -- Grey Estates -- Burnt Plants
 RemoveImap(1786931635)    -- Lemoyne -- Caliga Hall -- Grey Estates -- Burnt out fields
+--## Lagras Swamp ##--
+RequestImap(-1013144003) -- Lemoyne -- Lagras Swamps -- Small House -- Details
+RequestImap(13362810)    -- Lemoyne -- Lagras Swamps -- Small House -- Shell Details
+RequestImap(-1382730965)  -- Lemoyne -- Lagras Swamps -- Small House -- Additional Details + Interior
+RemoveImap(1015432090)   -- Lemoyne -- Lagras Swamps -- Small House -- Window Shades Closed
 --#### End of Lemoyne ####--
  
 
@@ -701,23 +803,32 @@ RemoveImap(390537034)  -- Early Construction LOD
 
 --#### West Elizabeth ####--
 ------## Blackwater ##------
+RequestImap(-1906713208) -- West Elizabeth -- Blackwater -- Tree's all around Blackwater
+RequestImap(-1631536545) -- West Elizabeth -- Blackwater -- Grass around Construction by Foreman Building
+RemoveImap(-1675593451)  -- West Elizabeth -- Blackwater -- Lone Rock?
+
+RequestImap(-501793326)   -- West Elizabeth -- Blackwater -- Construction next to Foremans building detailed
+RequestImap(-643541706)   -- West Elizabeth -- Blackwater -- Construction next to Foremans building LOD
 RemoveImap(1905713232) -- West Elizabeth -- Blackwater -- Docks -- Barrels/Boxes Clutter LOD
 RequestImap(-753035570) -- West Elizabeth -- Blackwater -- Docks -- Wagon Barrels and Boxes by Baitshop LOD
 RequestImap(-1897394596) -- West Elizabeth -- Blackwater -- Docks -- Wagon Barrels and Boxes by Baitshop
-RequestImap(-2082201137)  -- West Elizabeth -- Blackwater -- Town Hall -- Ground
-RequestImap(1343343014)   -- West Elizabeth -- Blackwater -- Town Hall -- Addons Construction
+RemoveImap(-2082201137)  -- West Elizabeth -- Blackwater -- Town Hall -- Ground
+RemoveImap(1343343014)   -- West Elizabeth -- Blackwater -- Town Hall -- Addons Construction
 RemoveImap(739412171)    -- West Elizabeth -- Blackwater -- Town Hall -- General Clutter at the Docks
-RequestImap(-5339556)     -- West Elizabeth -- Blackwater -- Town Hall -- Bank Under Construction
---RequestImap(1173561253) -- West Elizabeth -- Blackwater -- Town Hall -- Tents Beside City Hall Near Trech
---RequestImap(1470738186) -- West Elizabeth -- Blackwater -- Town Hall -- Adds Town Hall Pre-Construcion Ground (Ground does not mesh well with contrustion IPLs)
---RequestImap(-1632348233)-- West Elizabeth -- Blackwater -- Town Hall -- Adds Trees and Grass (DO NOT USE WITH CONSTRUCTION IPL, WILL MERGE VISUALS)
-RemoveImap(1173561253)    -- West Elizabeth -- Blackwater -- Town Hall -- Tents Beside City Hall Near Trech
-RemoveImap(1470738186)    -- West Elizabeth -- Blackwater -- Town Hall -- Adds Pre-Construcion Ground (Ground does not mesh well with contrustion IPLs)
-RemoveImap(-1632348233)   -- West Elizabeth -- Blackwater -- Town Hall -- Adds Trees and Grass (DO NOT USE WITH CONSTRUCTION IPL, WILL MERGE VISUALS)
+RemoveImap(-5339556)     -- West Elizabeth -- Blackwater -- Town Hall -- Bank Under Construction
+RemoveImap(1258244391)   -- West Elizabeth -- Blackwater -- Town Hall -- Bank Under Construction Occlusion
+RequestImap(-843384101)  -- West Elizabeth -- Blackwater -- Town Hall -- City Hall & Docks Model Textures and Detail
+RemoveImap(1649548630)  -- West Elizabeth -- Blackwater -- Town Hall -- Grass on Right side of City Hall
+--RemoveImap(-150795123)   -- West Elizabeth -- Blackwater -- Town Hall -- Trench Low Detail Ground
+RequestImap(1173561253) -- West Elizabeth -- Blackwater -- Town Hall -- Tents Beside City Hall Near Trech
+RequestImap(1470738186) -- West Elizabeth -- Blackwater -- Town Hall -- Adds Town Hall Pre-Construcion Ground (Ground does not mesh well with contrustion IPLs)
+RequestImap(-1632348233)-- West Elizabeth -- Blackwater -- Town Hall -- Adds Trees and Grass (DO NOT USE WITH CONSTRUCTION IPL, WILL MERGE VISUALS)
+RequestImap(1173561253)    -- West Elizabeth -- Blackwater -- Town Hall -- Tents Beside City Hall Near Trech
 RemoveImap(1858796535)    -- West Elizabeth -- Blackwater -- Fast Travel
 RemoveImap(1490756544)    -- West Elizabeth -- Blackwater -- Crates & Barrels on Streets
 RemoveImap(-677362237)    -- West Elizabeth -- Blackwater -- Wreckage near bards crossing
 RemoveImap(-1293161516)  -- West Elizabeth -- Blackwater -- Sheriffs Office -- Bounty Board
+RemoveImap(1641449717)  -- West Elizabeth -- Blackwater -- Town Hall -- Grass along path near tents
 --## Strawberry ##--
 RemoveImap(-134556459)    -- West Elizabeth -- Strawberry -- Doctors House -- Locked Door (No Interior) -1799 -428 158
 RemoveImap(270920361)     -- West Elizabeth -- Strawberry -- Doctors House -- Crates on Porch 
@@ -999,14 +1110,12 @@ RequestImap(-1019727725)
 RequestImap(-102239629)
 RequestImap(-1022426685)
 RequestImap(-1023331176)
-RequestImap(-1026473536)
 RequestImap(-102951407)
 RequestImap(-1031045988)
 RequestImap(-1031113966)
 RequestImap(-1033632314)
 RequestImap(-1035166057)
 RequestImap(-1036501021)
-RemoveImap(-1036688493)
 RequestImap(-1037436240)
 RequestImap(-104137172)
 RequestImap(-1047158045)
@@ -1183,7 +1292,6 @@ RemoveImap(-1448947307)
 RequestImap(-1451954802)
 RequestImap(-1452136643)
 RequestImap(-1453850836)
-RequestImap(-1461530058)
 RequestImap(-1461922204)
 RequestImap(-1465375517)
 RemoveImap(-1466172032) --Grassy Patches around the Area LUMBER STORE CABIN
@@ -1233,7 +1341,6 @@ RequestImap(-1583923165)
 RequestImap(-1588780614)
 RequestImap(-1588838395)
 RequestImap(-1593160175)
-RequestImap(-1593790123)
 RequestImap(-1595003151)
 RequestImap(-159723514)
 RequestImap(-1603329230)
@@ -1259,7 +1366,6 @@ RequestImap(-1664053323)
 RequestImap(-1665620584)
 RequestImap(-166639526)
 RequestImap(-1670262487)
-RequestImap(-1671953459)
 RequestImap(-1676256391)
 RequestImap(-1687561002)
 RequestImap(-1688366042)
@@ -1391,10 +1497,8 @@ RequestImap(-2009766528)
 RequestImap(-2011620387)
 RequestImap(-2014929982)
 RequestImap(-2021605623)
-RequestImap(-2023595928)
 RequestImap(-2024941402)
 RequestImap(-2029001482)
-RequestImap(-2035101386)
 RequestImap(-2035177903)
 RequestImap(-2037324418)
 RequestImap(-2037661155)
@@ -1421,7 +1525,6 @@ RequestImap(-2071756699)
 RequestImap(-2074957003)
 RequestImap(-2077690059)
 RequestImap(-2084193212)
-RequestImap(-2084311522)
 RequestImap(-2085723453)
 RequestImap(-2090209059)
 RequestImap(-2090647942)
@@ -1443,7 +1546,6 @@ RequestImap(-2117963426)
 RequestImap(-2118853492)
 RequestImap(-2122297972)
 RequestImap(-2122914678)
-RequestImap(-2124415277)
 RequestImap(-2125611324)
 RequestImap(-2127665186)
 RequestImap(-2131576785)
@@ -1477,7 +1579,6 @@ RequestImap(-284612948)
 RequestImap(-290546285)
 RequestImap(-293283707)
 RequestImap(-299265919)
-RequestImap(-30157790)
 RequestImap(-302735166)
 RequestImap(-307327135)
 RequestImap(-313259746)
@@ -1496,7 +1597,6 @@ RequestImap(-340622004)
 RequestImap(-354071784)
 RequestImap(-355608501)
 RequestImap(-3571233)
-RequestImap(-359734366)
 RequestImap(-361709910)
 RequestImap(-362403544)
 RemoveImap(-362883443) -- Cluttered Boxes
@@ -1518,7 +1618,6 @@ RequestImap(-392430949)
 RemoveImap(-393583941) --wagon on street by barbershop
 RequestImap(-395621323)
 RequestImap(-402976431)
---RemoveImap(-406964748)
 RequestImap(-407068688)
 RequestImap(-407402757)
 RequestImap(-408234235)
@@ -1538,7 +1637,7 @@ RequestImap(-432154242)
 RequestImap(-432370325)
 RequestImap(-433293752)
 RequestImap(-436084091)
-RequestImap(-436566493)
+RemoveImap(-436566493)
 RequestImap(-441619793)
 RequestImap(-442857872)
 RequestImap(-445068262)
@@ -1549,7 +1648,6 @@ RemoveImap(-455342387)
 RequestImap(-456215895)
 RequestImap(-459648718)
 RequestImap(-468702164)
-RequestImap(-469909433)
 RemoveImap(-473077489)
 RequestImap(-474761969)
 RequestImap(-476377037)
@@ -1565,7 +1663,6 @@ RemoveImap(-490818122)
 RequestImap(-492341871)
 RequestImap(-494733971)
 RequestImap(-498256840)
-RequestImap(-501793326)
 RequestImap(-502582154)
 RequestImap(-50297425)
 RequestImap(-508205317)
@@ -1614,7 +1711,6 @@ RequestImap(-592147003)
 RemoveImap(-593183975) --Various Bottles and spitoons LUMBER STORE CABIN
 RemoveImap(-321905459) --Unclear what this is FOUND NEAR LUMBER STORE CABIN
 RequestImap(-593457329)
-RequestImap(-595698218)
 RequestImap(-596115807)
 RequestImap(-596723840)
 RequestImap(-597126658)
@@ -1622,7 +1718,6 @@ RequestImap(-597695075)
 RequestImap(-598586662)
 RequestImap(-599973510)
 RequestImap(-601173298)
-RequestImap(-604091710)
 RequestImap(-605128543)
 RequestImap(-605808708)
 RequestImap(-612173099)
@@ -1649,7 +1744,6 @@ RequestImap(-64632667)
 RequestImap(-64729392)
 RequestImap(-65072454)
 RequestImap(-660075384)
-RequestImap(-661825463)
 RequestImap(-663999418)
 RequestImap(-665583358)
 RemoveImap(-665831452)
@@ -1687,7 +1781,6 @@ RequestImap(-730093764)
 RequestImap(-737812908)
 RequestImap(-739334986)
 RequestImap(-739754595)
-RequestImap(-741366935)
 RequestImap(-741769242)
 RequestImap(-744260705)
 RequestImap(-745087561)
@@ -1754,7 +1847,6 @@ RequestImap(-860750371)
 RemoveImap(-869788001)
 RequestImap(-872587325)
 RequestImap(-872749010)
-RequestImap(-873881483)
 RequestImap(-87394864)
 RequestImap(-877653131)
 RequestImap(-87826930)
@@ -1785,7 +1877,6 @@ RequestImap(-922917541)
 RequestImap(-924329535)
 RemoveImap(-926795318) -- LUMBER STORE CABIN -- UNCLEAR
 RequestImap(-927211837)
-RequestImap(-928815382)
 RequestImap(-929277449)
 RequestImap(-931280709)
 RequestImap(-936204805)
@@ -1798,7 +1889,6 @@ RemoveImap(-948615309)
 RequestImap(-952533419)
 RequestImap(-953275122)
 RequestImap(-957510885)
-RequestImap(-958046355)
 RequestImap(-960136064)
 RequestImap(-960337247)
 RequestImap(-960397707)
@@ -1819,7 +1909,6 @@ RequestImap(1003623269)
 RequestImap(1013712166)
 RequestImap(1014446371)
 RequestImap(1017072544)
-RequestImap(1017355491)
 RequestImap(1020450527)
 RequestImap(1023328345)
 RequestImap(1025787994)
@@ -1829,13 +1918,11 @@ RequestImap(103750283)
 RequestImap(104102416)
 RequestImap(104287396)
 RequestImap(1044079550)
-RequestImap(1048677741)
 RequestImap(1048790253)
 RequestImap(1048845581)
 RequestImap(1049849921)
 RequestImap(105236016)
 RequestImap(105426297)
-RequestImap(1056170594)
 RequestImap(1060557512)
 RequestImap(1062381624)
 RequestImap(106249677)
@@ -1874,7 +1961,6 @@ RequestImap(114673428)
 RequestImap(1155877447)
 RequestImap(1157066259)
 RequestImap(1157155867)
-RequestImap(1157695860)
 RequestImap(1160690623)
 RequestImap(116162819)
 RequestImap(1169154818)
@@ -1914,7 +2000,6 @@ RequestImap(1251925821)
 RequestImap(1252084553)
 RequestImap(1253360932)
 RequestImap(1256749990)
-RequestImap(1258244391)
 RequestImap(1260721433)
 RequestImap(1262164851)
 RequestImap(1265596420)
@@ -1928,13 +2013,11 @@ RequestImap(1274804496)
 RequestImap(1279910772)
 RequestImap(1280284302)
 RequestImap(1283988553)
-RequestImap(1284188544)
 RequestImap(1289178060)  -- LUMBER STORE CABIN -- SMALL TREE'S
 RequestImap(1289304923)
 RequestImap(1290812287)
 RequestImap(129717520)
 --RequestImap(1299817544)
-RequestImap(1305074360)
 RequestImap(1305415261)
 RequestImap(1308321372)
 RequestImap(1311508924)
@@ -1950,7 +2033,6 @@ RequestImap(-70965904) -- Doors to Fire Building in Guarma
 RemoveImap(1332067900) -- See Above
 RequestImap(1335714585)
 RequestImap(1337703077)
-RequestImap(1343484786)
 RequestImap(1344772301)
 RequestImap(1344880374)
 RequestImap(1347068672)
@@ -1959,7 +2041,6 @@ RequestImap(135073157)
 RequestImap(1351589798)
 RequestImap(1352837232)
 RequestImap(1354870005)
-RequestImap(1355914142)
 RequestImap(1358414393)
 RequestImap(1361745480)
 RequestImap(1364276294)
@@ -1988,7 +2069,6 @@ RequestImap(140744122)
 RemoveImap(1412515639)
 RequestImap(1415119588)
 RequestImap(1416094782)
-RequestImap(1417687142)
 RequestImap(1419819915)
 RequestImap(1423158124)
 RequestImap(1423450469)
@@ -2011,7 +2091,6 @@ RequestImap(1459136338)
 RequestImap(1460466036)
 RequestImap(1461000451)
 RequestImap(1461266126)
-RequestImap(146172383)
 RequestImap(1464851585)
 RequestImap(1465430690)
 RequestImap(1466088082)
@@ -2032,12 +2111,10 @@ RequestImap(1499112197)
 RequestImap(1502951187)
 RequestImap(1503442953)
 RequestImap(1507566204)
-RequestImap(1509141447)
 RequestImap(1511919645)
 RequestImap(1513363974)
 RequestImap(1519091923)
 RemoveImap(1520095560)
-RequestImap(1520435387)
 RemoveImap(1524580507) --Additional Forest Density LUMBER STORE CABIN
 RemoveImap(1570711734) -- Broken Fence LOD for Stables LUMBER STORE CABIN
 RemoveImap(232965437) --Unbroken Fence for stables LOD
@@ -2081,7 +2158,6 @@ RequestImap(1597665303)
 --RequestImap(1598834669)
 RequestImap(159921796)
 RequestImap(1601053042)
-RequestImap(1603294144)
 RequestImap(1614255891)
 RequestImap(1616712776)
 RequestImap(1620292759)
@@ -2093,12 +2169,10 @@ RequestImap(163126540)
 RequestImap(1635537886)
 RequestImap(1636184722)
 RequestImap(1638937672)
-RequestImap(1641449717)
 RequestImap(1647812004)
 RequestImap(1648013752)
 RequestImap(1649275138)
 RequestImap(1650694835)
-RequestImap(165972019)
 RequestImap(1662136507)
 RequestImap(1674493966)
 RequestImap(1676972066)
@@ -2183,7 +2257,6 @@ RequestImap(1855900423)
 RequestImap(1856368424)
 RequestImap(1857501669)
 RequestImap(1859330882)
-RequestImap(1859948183)
 RequestImap(1865439665)
 RequestImap(1867048850)
 RequestImap(1870870569)
@@ -2297,7 +2370,6 @@ RequestImap(2100012223)
 RequestImap(2101101756)
 RequestImap(2101399188)
 RequestImap(2107567819)
-RequestImap(2107657444)
 RequestImap(2111695903)  -- LUMBER STORE CABIN -- TWO TENTS
 RemoveImap(2112594812)
 RequestImap(2113454609)
@@ -2365,7 +2437,6 @@ RequestImap(339295570)
 RequestImap(339409162)
 RequestImap(340621560)
 RequestImap(341106871)
-RequestImap(349486662)
 RequestImap(350637317)
 RequestImap(352816221)
 RequestImap(354638936)
@@ -2430,7 +2501,6 @@ RequestImap(48202231)
 RemoveImap(483041556)
 RequestImap(483731764)
 RequestImap(488068970)
-RequestImap(489834626)
 RequestImap(491871729)
 RequestImap(495423143)
 RequestImap(495480888)
@@ -2447,7 +2517,6 @@ RequestImap(512556003)
 RequestImap(514406510)
 RequestImap(516308968)
 RequestImap(516817794)
-RequestImap(518127510)
 RequestImap(519905064)
 RequestImap(526763180)
 RequestImap(531106429)
@@ -2545,7 +2614,6 @@ RequestImap(751578549)
 RequestImap(752665876)
 RequestImap(753181111)
 RemoveImap(758066107) --LUMBER STORE CABIN Early Construction Version Detailed
-RequestImap(758684739)
 RequestImap(765141292)
 RequestImap(765343099)
 RequestImap(767293177)
@@ -2589,8 +2657,6 @@ RequestImap(870580095) --Unbroken fence for Stables detailed v2
 RequestImap(629133609) -- Unbroken Fence for Stables LOD v2 LUMBER STORE CABIN
 RequestImap(872406077)
 RequestImap(874022542)
-RequestImap(876228895)
-RequestImap(881979872)
 RequestImap(882236853)
 RequestImap(883152450)
 RequestImap(883579956)
