@@ -87,10 +87,10 @@ Citizen.CreateThread(function()
                     interiorsActive = true
                     print('Interiors are already active.')
                 else
-                    getValJail()
+                    --getValJail()
                     getValBank()
-                    getValSaloon()
-                    getValGenstore()
+                    --getValSaloon()
+                    --getValGenstore()
                     getKorrigan()
                     getBeechers()
                     getBraManor()
@@ -567,6 +567,9 @@ RemoveImap(-1256604002)-- Lemoyne -- More Tree's and Foliage for all of Lemoyne
 --RequestImap(1751175954) -- Lemoyne -- Buildings -- All Buildings LOD 5
 --RequestImap(39824124) -- Lemoyne -- Buildings -- All Buildings LOD 6
 --RemoveImap(-1671953459) -- Lemoyne -- Buildings -- Gunsmith -- Window Bars
+--RequestImap(-207952982) -- Lemoyne -- Rhodes -- General Store Sign LOD
+RequestImap(-1436188587)  -- Lemoyne -- Rhodes -- General Store Sign
+RemoveImap(-468702164)    -- Lemoyne -- Rhodes -- General Store Sign 2
 RequestImap(1343484786)   -- Lemoyne -- Rhodes -- Building Doors/Props 
 RequestImap(753596748)   -- Lemoyne -- Rhodes -- Saloon -- Plants Hanging and Potted
 RemoveImap(1193480106) -- Lemoyne -- Rhodes -- Sheriff and Gunsmith Window Shutters
@@ -701,11 +704,18 @@ RemoveImap(-391187090)    -- New Hanover -- Valentine -- Cemetery -- Grass on Gr
 RemoveImap(-1902184438)   -- New Hanover -- Valentine -- Cemetery -- Dirt Pile from Grave Dug #1
 RemoveImap(740012805)     -- New Hanover -- Valentine -- Cemetery -- Dirt Pile from Grave Dug #2
 RemoveImap(1236921921)    -- New Hanover -- Valentine -- Cemetery -- Dirt Pile from Grave Dug #3
-RemoveImap(1886602884)    -- New Hanover -- Valentine -- Cemetery -- Pre-Grave Dug #1
+RequestImap(1886602884)    -- New Hanover -- Valentine -- Cemetery -- Pre-Grave Dug #1
+--RequestImap(-237375888)  -- New Hanover -- Valentine -- Cemetery -- Pre-Grave Dug #1 LOD
 RemoveImap(1963724330)    -- New Hanover -- Valentine -- Cemetery -- Pre-Grave Dug #2
 RemoveImap(-1871745961)   -- New Hanover -- Valentine -- Cemetery -- Coffin in Left Grave
 RemoveImap(2125514970)    -- New Hanover -- Valentine -- Cemetery -- Coffin in Center Grave
 RemoveImap(267578156)     -- New Hanover -- Valentine -- Cemetery -- Coffin in Right Grave
+RemoveImap(-1280884206)   -- New Hanover -- Valentine -- Cemetery -- Dirt Pile Detailed
+RemoveImap(-1745251995)   -- New Hanover -- Valentine -- Cemetery -- Dirt Pile LOD
+RequestImap(-689352221)   -- New Hanover -- Valentine -- Cemetery -- Grass Patches by Dirt Pile
+RemoveImap(-1640200357)  -- New Hanover -- Valentine -- Cemetery -- Dirt Covering Grave Detailed
+RemoveImap(-2022476576)   -- New Hanover -- Valentine -- Cemetery -- Dirt Covering Grave LOD
+RemoveImap(-555917871)    -- New Hanover -- Valentine -- Cemetery -- Coffin in Grave
 RequestImap(2077623691)   -- New Hanover -- Valentine -- Railroad -- Track Bed - Full Legnth
 --RequestImap(-794503195) -- New Hanover -- Valentine -- Railroad -- Broken Bridge and Pieces Pieces  -- 520 1754 187
 RemoveImap(1879779330)    -- New Hanover -- Valentine -- Traveling Magic Lantern Show -- sign outside tent version 1
@@ -714,6 +724,43 @@ RemoveImap(1027093524)    -- New Hanover -- Valentine -- Traveling Magic Lantern
 RemoveImap(-1617847332)  -- New Hanover -- Valentine -- Traveling Magic Lantern Show -- sign outside tent version 4
 RemoveImap(-763477089)    -- New Hanover -- Valentine -- Traveling Magic Lantern Show -- partial door flap open
 RequestImap(317070801)     -- New Hanover -- Valentine -- Traveling Magic Lantern Show -- full closed flap
+
+
+RemoveImap(872406077)   -- New Hanover -- Valentine -- Construction House -- Early Construction Foundation
+RemoveImap(826510327)   -- New Hanover -- Valentine -- Construction House -- Early Construction Foundation LOD
+RemoveImap(1471226731)  -- New Hanover -- Valentine -- Construction House -- Construction Foundation Stage 1 Detailed
+RemoveImap(1269600821)  -- New Hanover -- Valentine -- Construction House -- Construction Foundation Stage 1 LOD
+RemoveImap(248271199)   -- New Hanover -- Valentine -- Construction House -- Construction Foundation Stage 2 LOD
+RemoveImap(-1149736196) -- New Hanover -- Valentine -- Construction House -- Construction Foundation Stage 2 Detailed
+RemoveImap(-1926787493) -- New Hanover -- Valentine -- Construction House -- Construction Foundation Stage 3 Shell Detailed
+RemoveImap(-997730118)  -- New Hanover -- Valentine -- Construction House -- House Shell Completed LOD
+RemoveImap(338623029)   -- New Hanover -- Valentine -- Construction House -- Front Entrace LOD
+RemoveImap(1552753100)  -- New Hanover -- Valentine -- Construction House -- Front Entrace Detailed
+RemoveImap(427220750)   -- New Hanover -- Valentine -- Construction House -- Window Curtains Closed
+--RequestImap(1840600379)  -- New Hanover -- Valentine -- Construction House -- Random Pile of Wood Under Map
+--RequestImap(2136811572)  -- New Hanover -- Valentine -- Construction House -- Random Pile of Wood Under Map
+--RequestImap(-1859373348) -- New Hanover -- Valentine -- Construction House -- Random Pile of Wood Under Map
+--RequestImap(-1471527776) -- New Hanover -- Valentine -- Construction House -- Sawdust around House
+RemoveImap(1305415261)    -- New Hanover -- Valentine -- Construction House -- Campfire outside house?
+RemoveImap(765141292)   -- New Hanover -- Valentine -- Construction House -- Cooking Pot Campfire Outside House
+--RequestImap(-1593160175) -- New Hanover -- Valentine -- Construction House -- Boxes outside House
+--RequestImap(-699389755)  -- New Hanover -- Valentine -- Construction House -- Boxes outside House LOD
+RemoveImap(1987335384)  -- New Hanover -- Valentine -- Construction House -- Wood Plank Piles around House
+RemoveImap(1867048850)  -- New Hanover -- Valentine -- Construction House -- Random Junk around House
+RemoveImap(490626364)   -- New Hanover -- Valentine -- Construction House -- Construction Junk around House
+RemoveImap(2060831702)  -- New Hanover -- Valentine -- Construction House -- Construction Junk around House
+RemoveImap(300556693)   -- New Hanover -- Valentine -- Construction House -- Construction Junk around House
+RemoveImap(-590227673)  -- New Hanover -- Valentine -- Construction House -- Construction Camp around House
+RemoveImap(773056734)   -- New Hanover -- Valentine -- Construction House -- Construction Camp around House LOD
+RemoveImap(-2040493861) -- New Hanover -- Valentine -- Construction House -- Construction Camp around House Stage 2 Detailed
+RemoveImap(-1382265257) -- New Hanover -- Valentine -- Construction House -- Construction Camp around House Stage 1 Detailed?
+RemoveImap(-232598845)  -- New Hanover -- Valentine -- Construction House -- Construction Camp in Disarray
+RemoveImap(65255897)    -- New Hanover -- Valentine -- Construction House -- Wood Plank Piles around House
+RemoveImap(-1490939730) -- New Hanover -- Valentine -- Construction House -- Saw Horses outside house
+RemoveImap(-1703972708) -- New Hanover -- Valentine -- Construction House -- Pull Cart LOD Outside House
+RemoveImap(1251358153)    -- New Hanover -- Valentine -- Construction House -- Horse Hitching Post
+RemoveImap(-983957271)    -- New Hanover -- Valentine -- Construction House -- Fast Travel Marker?
+
 --## Annesburg ##--
 --RequestImap(582879672)  -- New Hanover -- Annesburg -- Fast Travel
 --RequestImap(1570947227) -- New Hanover -- Annesburg -- Sheriff office -- Bounty Board
@@ -743,6 +790,83 @@ RequestImap(2028590076)   -- New Hanover -- Near Annesburg Mining Town -- Cash B
 RemoveImap(-323126593)    -- New Hanover -- Near Annesburg Mining Town -- Burned Out Interior
 RemoveImap(-889869458)    -- New Hanover -- Near Annesburg Mining Town -- Debris
 RemoveImap(1590561203)    -- New Hanover -- Near Annesburg Mining Town -- Flames
+
+RemoveImap(-1437554707)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon near front of Camp
+RemoveImap(1491306978)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon near front of Camp LOD
+RemoveImap(-981684452)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon near front of Camp
+RemoveImap(-854053607)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon near front of Camp LOD
+RemoveImap(1051160751)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon near front of Camp LOD
+RemoveImap(1547347496)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon
+RemoveImap(-2117963426)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- crashed Coach
+RemoveImap(-1869016398)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Wagon with lots of Junk
+RemoveImap(1122583474)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Majority of Junk
+RemoveImap(-1162254606)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Majority of Junk v2
+RemoveImap(1537844205)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Majority of Junk v3
+RemoveImap(-1392793470)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Majority of Junk v4
+RemoveImap(-1809365172)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Majority of Junk v5
+RemoveImap(1311984381)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Majority of Junk v6
+
+RemoveImap(560821199)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Litter around the Camp
+RemoveImap(955352710)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Various camp litter
+RemoveImap(806681228)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Campstuff/litter
+
+RemoveImap(-407402757)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Camp Boxes around Poker Table
+RemoveImap(-957510885)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Camp Boxes around Poker Table v2
+RemoveImap(968084866)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Poker Table Leather Cover 
+RemoveImap(-149795084)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Table Set near mouth of Cave
+
+RemoveImap(977037457)     -- LOD's / Unused
+RemoveImap(1418284080)
+RemoveImap(528036139)
+RemoveImap(-974404379)
+RemoveImap(1275396762)
+RemoveImap(1358443339)
+RemoveImap(1694722333)
+RemoveImap(297811726)
+RemoveImap(108234184)
+
+RemoveImap(-1766409506)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Random Poles coming out of ground
+RemoveImap(-1541842872)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent Flap
+RemoveImap(-1802418799)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent 
+RemoveImap(-459648718)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent v2
+RemoveImap(-1778044697)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent v3 both ends open
+RemoveImap(44502487)      -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent v4 both ends closed
+RemoveImap(1102643191)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent v5 front end open
+RemoveImap(1069611813)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent 2 flaps closed
+RemoveImap(531106429)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Tent 2 v2 Flaps open front
+RemoveImap(1561231200)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Water pail on Wagon near front of Camp
+RemoveImap(-1966238128)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Sacks of Grain on Wagon near front of camp
+RemoveImap(1387226336)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Random Boxes on Ground
+RemoveImap(-1310355638)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Random Boxes on Ground v2
+RequestImap(-1616015098)  -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Random Log and Rock 
+RemoveImap(1423158124)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Floating Skull Mask
+RequestImap(1475089455)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Plant life around the camp (overgrown)
+RequestImap(637861796)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- More Plant life around the camp (overgrown)
+RequestImap(702867922)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- EVEN More Plant life around the camp (overgrown)
+RequestImap(753181111)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- EVEN More Plant life around the camp (overgrown)
+RequestImap(913170302)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- EVEN More Plant life around the camp (overgrown)
+RemoveImap(-696422730)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Paperwork on chest
+RemoveImap(1104800593)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Cowhide
+RemoveImap(668976634)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Banjo
+RemoveImap(1459136338)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Log for sitting on
+RemoveImap(255767990)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Cowhide on Log
+RemoveImap(-2048221620)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Leathers on Table
+RemoveImap(-828094297)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Books on Table in Tent
+RemoveImap(-763678874)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Extra Camp Stuff
+RequestImap(-1016007592)  -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Horns on Tree nearby
+RemoveImap(-1849681615)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Random Mirror on Barrel
+RemoveImap(-408234235)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Gator Skull on Cart
+RemoveImap(-1255331540)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Pelt on Cart
+RemoveImap(41956969)      -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Table for Pelt on Cart
+RemoveImap(360408116)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Cow Skull on Tent by Cart
+RemoveImap(-419935200)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Sign hanging on Wagon
+RemoveImap(-1063259251)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Sleeping pad in Tent
+RemoveImap(629519239)     -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Table
+RemoveImap(-1063926197)   -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Table v2
+RemoveImap(1025787994)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Clothing chest with shirt falling out
+RemoveImap(-317096325)    -- New Hanover -- Near Annesburg Mining Town -- Cave Camp -- Clothing Chest type 2 with shirt falling out
+
+
 --## Cumberland Forest ##--
 RequestImap(604668055)    -- New Hanover -- Cumberland Forest -- Tree Logs -- Debris Near Road
 RemoveImap(1672215059)    -- New Hanover -- Cumberland Forest -- Tree Logs -- Debris on the Road
@@ -769,9 +893,28 @@ RequestImap(890452998)	  -- New Hanover -- Cumberland Forest -- Railroad -- Bacc
 --RequestImap(-428652579) -- New Hanover -- The Heartland -- Vanhorn -- Sheriff office -- Bounty Board
 RequestImap(-1487154162)  -- New Hanover -- The Heartland -- Vanhorn -- Sheriff office -- Bounty Board
 -- Oil Station --
+--RequestImap(-1621949228)  -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Oil Stuff
+--RequestImap(1500116524)   -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Oil Stuff 2
+--RequestImap(-1490048714)  -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Oil Stuff 3
+--RequestImap(302856251)    -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Oil Stuff 4
+--RequestImap(-248623850)   -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Oil Stuff 5
+--RequestImap(-1200103147)  -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Oil Stuff 6
+--RequestImap(-308959558)   -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Main Building
+--RequestImap(-276196376)   -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Main Building 2
+--RequestImap(-19549107)    -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Main Building 3
+--RequestImap(-1336734446)  -- New Hanover -- The Heartland -- Oil Station -- LOD Models for Main Building 4
+--RequestImap(727995995)    -- New Hanover -- The Heartland -- Oil Station -- LOD Interior for Main Building
+--RequestImap(-1448445780)  -- New Hanover -- The Heartland -- Oil Station -- LOD Interior for Main Building 2
+RequestImap(1597665303)   -- New Hanover -- The Heartland -- Oil Station -- Main Building interior Details
+RemoveImap(918349577)     -- New Hanover -- The Heartland -- Oil Station -- Extra bits and bobs around the area
+RemoveImap(918349577)     -- New Hanover -- The Heartland -- Oil Station -- Extra bits and bobs around the area
+RequestImap(116162819)    -- New Hanover -- The Heartland -- Oil Station -- Detailed Oil Buildings
 RemoveImap(-84516711)     -- New Hanover -- The Heartland -- Oil Station -- Run Down Closed Station
-RequestImap(-657241692)   -- New Hanover -- The Heartland -- Oil Station -- Oil Pipe
+RemoveImap(-657241692)    -- New Hanover -- The Heartland -- Oil Station -- Oil Pipe
 RequestImap(-1112373128)  -- New Hanover -- The Heartland -- Oil Station -- Oil Tower
+RemoveImap(1460466036)    -- New Hanover -- The Heartland -- Oil Station -- Random Plank
+RequestImap(-1031113966)  -- New Hanover -- The Heartland -- Oil Station -- Random Plank 2
+RemoveImap(-711890106)    -- New Hanover -- The Heartland -- Oil Station -- Debris
 -- Emerald Station --
 --RequestImap(-214604861) -- New Hanover -- The Heartland -- Emerald Station -- Sheriff office -- Bounty Board
 RequestImap(-1913584952)  -- New Hanover -- The Heartland -- Emerald Station -- Sheriff office -- Bounty Board
@@ -805,8 +948,7 @@ RemoveImap(390537034)  -- Early Construction LOD
 ------## Blackwater ##------
 RequestImap(-1906713208) -- West Elizabeth -- Blackwater -- Tree's all around Blackwater
 RequestImap(-1631536545) -- West Elizabeth -- Blackwater -- Grass around Construction by Foreman Building
-RemoveImap(-1675593451)  -- West Elizabeth -- Blackwater -- Lone Rock?
-
+RequestImap(-1675593451)  -- West Elizabeth -- Blackwater -- Lone Rock and Crops in farm by Grocery Store
 RequestImap(-501793326)   -- West Elizabeth -- Blackwater -- Construction next to Foremans building detailed
 RequestImap(-643541706)   -- West Elizabeth -- Blackwater -- Construction next to Foremans building LOD
 RemoveImap(1905713232) -- West Elizabeth -- Blackwater -- Docks -- Barrels/Boxes Clutter LOD
@@ -829,7 +971,17 @@ RemoveImap(1490756544)    -- West Elizabeth -- Blackwater -- Crates & Barrels on
 RemoveImap(-677362237)    -- West Elizabeth -- Blackwater -- Wreckage near bards crossing
 RemoveImap(-1293161516)  -- West Elizabeth -- Blackwater -- Sheriffs Office -- Bounty Board
 RemoveImap(1641449717)  -- West Elizabeth -- Blackwater -- Town Hall -- Grass along path near tents
+RemoveImap(1636184722)  -- West Elizabeth -- Outside Blackwater -- Sunken boat under bridge
+RequestImap(1658096684) -- West Elizabeth -- Outside Blackwater -- Tree's and Rocks on hill by Train Bridge
+RequestImap(-1122196204)-- West Elizabeth -- Outside Blackwater -- Lunas Camp -- Umbrella & 2 more Chairs for Camp
+RequestImap(372806894)  -- West Elizabeth -- Outside Blackwater -- Lunas Camp -- Entire Camp + Ground around it Collision
+RequestImap(413309170)  -- West Elizabeth -- Outside Blackwater -- Lunas Camp -- Entire Camp + Ground around it
 --## Strawberry ##--
+RemoveImap(-2043326480)   -- West Elizabeth -- Strawberry -- Fast Travel Marker Entering Town
+RequestImap(966418260)    -- West Elizabeth -- Strawberry -- Wagon next to Butchers Table
+--RequestImap(190341238)  -- West Elizabeth -- Strawberry -- Wagon next to Butchers Table LOD
+RequestImap(1190076410)   -- West Elizabeth -- Strawberry -- Benches by Stream and Bridge
+RemoveImap(-187892725)    -- West Elizabeth -- Strawberry -- Doctors House -- Interior LOD
 RemoveImap(-134556459)    -- West Elizabeth -- Strawberry -- Doctors House -- Locked Door (No Interior) -1799 -428 158
 RemoveImap(270920361)     -- West Elizabeth -- Strawberry -- Doctors House -- Crates on Porch 
 RequestImap(131323483)    -- West Elizabeth -- Strawberry -- Doctors House -- Interior and Unlocked Front Door
@@ -853,10 +1005,36 @@ RemoveImap(1947806010)    -- West Elizabeth -- Strawberry -- Unclear what this a
 RemoveImap(-1403908542)    -- West Elizabeth -- Strawberry -- big rock and grass under house  
 RemoveImap(1598834669)    -- West Elizabeth -- Strawberry -- picnic table and various things under house
 
+RemoveImap(2095421392)    -- West Elizabeth -- Diablo Ridge -- TNT plunger by crashed cart
+RemoveImap(1388161943)    -- West Elizabeth -- Diablo Ridge -- Broken Tree spanning road
+RemoveImap(105426297)     -- West Elizabeth -- Diablo Ridge -- Dead Tree Stump for below Tree
+RequestImap(-642132908)   -- West Elizabeth -- Diablo Ridge -- Giant Tree next to Road
+RemoveImap(-7594117)      -- West Elizabeth -- Diablo Ridge -- Giant Tree Broken but not falling
+RemoveImap(-848315456)    -- West Elizabeth -- Diablo Ridge -- Giant Tree Broken but not falling v2
+RequestImap(238757788)    -- West Elizabeth -- Diablo Ridge -- Rocks next to water
+--RequestImap(45121961)    -- West Elizabeth -- Diablo Ridge -- Lockbox next to wagon crash
+RequestImap(927020127)    -- West Elizabeth -- Diablo Ridge -- Ground Patch next to Wagon Crash
+RemoveImap(1182205549)   -- West Elizabeth -- Diablo Ridge -- Weird textured cube in Wagon
+RemoveImap(-1614141377)  -- West Elizabeth -- Diablo Ridge -- Wagon Crash
+RemoveImap(-928367655)   -- West Elizabeth -- Diablo Ridge -- Wagon Crash water effects
+
 --## Riggs Station ##--
 RequestImap(1418611013)   -- West Elizabeth -- Riggs Station -- Sheriffs Office -- Bounty Board
 --## Great Plains ##--
 RemoveImap(-605257184)   -- West Elizabeth -- Great Plains -- Wallace Station -- Sheriffs Office -- Bounty Board
+--## Fort Wallace ##--
+RemoveImap(1531008020)    -- Fort Wallace -- Front Gate -- Fast Travel Sign
+RemoveImap(-1052023588)   -- Fort Wallace -- Left Side Outside Fort -- Debris on Ground
+--RequestImap(-885735546)   -- Fort Wallace -- unrequested LOD Models for half the Fort
+--RequestImap(-1414991070)  -- Fort Wallace -- unrequested LOD Models for half the Fort 2
+--RequestImap(1292709415)   -- Fort Wallace -- unrequested LOD Models for half the Fort 3
+--RequestImap(599148215)    -- Fort Wallace -- unrequested LOD Models for half the Fort 4
+--RequestImap(-1673308523)  -- Fort Wallace -- unrequested LOD Models for half the Fort 5
+--RequestImap(2061660629)   -- Fort Wallace -- unrequested LOD Models for half the Fort 6
+--RequestImap(1716908633)   -- Fort Wallace -- unrequested LOD Models for half the Fort 7
+--RequestImap(-495594606)   -- Fort Wallace -- unrequested LOD Models for half the Fort 8
+--RequestImap(-386868455)   -- Fort Wallace -- unrequested LOD Models for half the Fort 9
+RequestImap(-745087561)   -- Fort Wallace -- Inside Fort -- Boxes and stuff Detailed Models
 -- Beechers --
 RequestImap(1353861354)   -- West Elizabeth -- Great Plains -- Beechers -- Barn -- Interior, lanterns and doors
 RemoveImap(611701601)     -- West Elizabeth -- Great Plains -- Beechers -- Barn -- Work supplies
@@ -961,7 +1139,6 @@ RemoveImap(938290967)     -- West Elizabeth -- Great Plains -- Beechers Field --
 RemoveImap(1169279648)    -- West Elizabeth -- Great Plains -- Beechers Field -- crops in middle
 --## Big Valley ##--
 -- Farm with hole in ground next to W in West Elizabeth --
-RequestImap(-928367655)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(890107948)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(1153046408)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(1634621556)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
@@ -992,15 +1169,11 @@ RequestImap(-285245562)   -- West Elizabeth -- Big Valley -- Farm with hole in g
 RequestImap(1031662866)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(-1041976064)  -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(1221694281)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
-RequestImap(1036815507)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
+RequestImap(1036815507)   -- West Elizabeth -- Big Valley -- Farm -- Plants hanging outside House
 RequestImap(775893260)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(-329355129)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RemoveImap(991016631)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth -- LUMBER STORE CABIN
-RemoveImap(57105576)     -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth -- LUMBER STORE CABIN
-RequestImap(238757788)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
-RequestImap(927020127)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
-RequestImap(1388161943)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
-RequestImap(-7594117)     -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
+RemoveImap(57105576)     -- West Elizabeth -- Big Valley -- LUMBER STORE CABIN
 RequestImap(-1680050035)  -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(41398635)     -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
 RequestImap(462263849)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth
@@ -1026,6 +1199,8 @@ RemoveImap(-297340751)    -- West Elizabeth -- Big Valley -- Farm with hole in g
 RemoveImap(2117211184)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth -- Fence
 RemoveImap(-1042390616)   -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth -- Barn Interior
 RemoveImap(-118700196)    -- West Elizabeth -- Big Valley -- Farm with hole in ground next to W in West Elizabeth -- Props Outside
+--RequestImap(-822172378) -- West Elizabeth -- Big Valley -- Human Camp near Native Shrine
+--RequestImap(1096335200) -- West Elizabeth -- Big Valley -- Big Stump with hidden box inside
 
 --#### New Austin ####--
 --## Tumbleweed ##--
@@ -1092,6 +1267,47 @@ RemoveImap(-175048740)    -- New Austin -- Armadillo -- Fires -- SE smoke
 RemoveImap(-482127039)    -- New Austin -- Armadillo -- Fires -- SE smoke
 --#### End of New Austin ####--
 
+--#### OWANJILA ####--
+--RequestImap(1314976319)  -- Owanjila -- Bridge -- Debris and extra props
+
+--#### GUARMA ####--
+--RequestImap(747097125)   -- GUARMA -- Landing Docks -- Docks and Surrounding buildings LOD
+--RequestImap(-1321844891)   -- GUARMA -- Landing Docks -- Docks and Surrounding Buildings LOD v2?
+--RequestImap(459338134)     -- GUARMA -- Landing Docks -- Surrounding Buildings LOD
+--RequestImap(-1720090071)   -- GUARMA -- Landing Docks -- Docks and Surrounding Buildings Detailed
+
+--RequestImap(-1421367329) -- GUARMA -- Landing Docks -- LOD for tall Building top platform
+RequestImap(-623091266)    -- GUARMA -- Landing Docks -- tall Building top platform
+
+RequestImap(1912491942)     -- GUARMA -- Landing Docks -- tall Building interior (doesn't need to be called)
+RemoveImap(-879952795)    -- GUARMA -- Landing Docks -- tall Building interior 2 (doesn't need to be called)
+
+--RequestImap(-2053475031) -- GUARMA -- Landing Docks -- tall Building Rubble and crumbling state top of building platform
+RemoveImap(-1532323601)    -- GUARMA -- Landing Docks -- tall Building Rubble and crumbling state top of building platform LOD
+RemoveImap(-217646849)     -- GUARMA -- Landing Docks -- tall Building Rubble and crumbling state outer wall
+--RemoveImap(-1686018814)  -- GUARMA -- Landing Docks -- tall Building Rubble and crumbling state exterior LOD
+--RemoveImap(1749727534)   -- GUARMA -- Landing Docks -- tall Building LOD
+
+RemoveImap(-694809996)     -- GUARMA -- Landing Docks -- tall Building semi destroyed exterior with interior
+--RemoveImap(-1582320256)  -- GUARMA -- Landing Docks -- tall Building semi destroyed exterior with interior LOD
+
+RequestImap(-279703229)    -- GUARMA -- Landing Docks -- tall Building exterior clean
+
+RequestImap(-961488528)    -- GUARMA -- Landing Docks -- Cannons
+RemoveImap(-1569624057)    -- GUARMA -- Landing Docks -- Broken Cannons version
+
+RemoveImap(634920011)      -- GUARMA -- Cliffside Fort -- Rocks blocking cliffside fort doors
+RequestImap(2035758463)    -- GUARMA -- Cliffside Fort -- Unblocked fort doors
+RequestImap(-313831898)    -- GUARMA -- Cliffside Fort -- DEV Cube under map?
+RequestImap(1694736240)    -- GUARMA -- Cliffside Fort -- DEV Cube under map?
+--RequestImap(-930817813)  -- GUARMA -- Cliffside Fort -- Fort Interior (Doesnt have to be called?)
+--RequestImap(457576205)   -- GUARMA -- Cliffside Fort -- Fort LOD for exterior (Doesnt have to be called)
+
+--RequestImap(603871447) -- Fire on Building in Guarma
+--RequestImap(-1118337851) -- Messy Roof in Guarma on Fire Building
+RequestImap(-70965904) -- Doors to Fire Building in Guarma
+--RequestImap(1332067900) -- Messy Roof for Fire Building in Guarma
+RemoveImap(1332067900) -- See Above
 
 --#### Unlisted Imaps ####--
 RequestImap(-1000738568)
@@ -1103,7 +1319,6 @@ RequestImap(-1010679388)
 RequestImap(-1013403664)
 RequestImap(-1015572514)
 RequestImap(-1015786727)
-RequestImap(-1016007592)
 RequestImap(-1017701936)
 RequestImap(-1018713880)
 RequestImap(-1019727725)
@@ -1112,7 +1327,6 @@ RequestImap(-1022426685)
 RequestImap(-1023331176)
 RequestImap(-102951407)
 RequestImap(-1031045988)
-RequestImap(-1031113966)
 RequestImap(-1033632314)
 RequestImap(-1035166057)
 RequestImap(-1036501021)
@@ -1121,14 +1335,11 @@ RequestImap(-104137172)
 RequestImap(-1047158045)
 RequestImap(-1047394327)
 RequestImap(-1049500949)
-RequestImap(-1052023588)
 RequestImap(-105525329)
 RequestImap(-1055748784)
 RequestImap(-1055775145)
 RequestImap(-105596478)
 RequestImap(-1062918766)
-RequestImap(-1063259251)
-RequestImap(-1063926197)
 RequestImap(-1069586228)
 RequestImap(-1070054959)
 RequestImap(-1070234238)
@@ -1151,7 +1362,6 @@ RequestImap(-1113878850)
 RequestImap(-1114426126)
 RequestImap(-1115840558)
 RequestImap(-1116430120)
---RequestImap(-1118337851) -- Messy Roof in Guarma on Fire Building
 RemoveImap(-1118337851)
 RequestImap(-1121783372)
 RequestImap(-1123141803)
@@ -1162,11 +1372,9 @@ RequestImap(-1132206051)
 RequestImap(-1139312905)
 RequestImap(-1141831946)
 RequestImap(-1147247388)
-RequestImap(-1149736196)
 RequestImap(-1150137955)
 RequestImap(-1151968796)
 RequestImap(-1159690567)
-RequestImap(-1162254606)
 RequestImap(-1166561064)
 RequestImap(-116967529)
 RequestImap(-1170563128)
@@ -1200,7 +1408,6 @@ RequestImap(-1233192626)
 RequestImap(-1235304557)
 RequestImap(-1250617063)
 RequestImap(-1255088882)
-RequestImap(-1255331540)
 RequestImap(-125588314)  -- LUMBER STORE CABIN
 RequestImap(-1260156441)
 RequestImap(-1265903940)
@@ -1209,7 +1416,6 @@ RemoveImap(-1272426249)
 RequestImap(-1276109918)
 RequestImap(-1279036865)
 RequestImap(-1279832420)
-RequestImap(-1280884206)
 RequestImap(-1287270695)
 RequestImap(-1296418825)
 RequestImap(-1298966347)
@@ -1217,7 +1423,6 @@ RequestImap(-1299414622)
 RequestImap(-1300575561)
 RequestImap(-1306905398)
 RequestImap(-1307469679)
-RequestImap(-1310355638)
 RequestImap(-1314125880)
 RequestImap(-1316886711)
 RequestImap(-1321905459)
@@ -1250,7 +1455,6 @@ RequestImap(-1377880324)
 RequestImap(-1378006849)
 RequestImap(-1380983970)
 RequestImap(-1381094502)
-RequestImap(-1382265257)
 RequestImap(-1382351182)
 RemoveImap(-1385360243) --campfire missing stewpot LUMBER STORE CABIN
 RemoveImap(971859818) -- LOD Boxes and Cart LUMBER STORE CABIN
@@ -1262,7 +1466,6 @@ RequestImap(-1389718656)
 RequestImap(-1390612743)
 RequestImap(-1392150519)
 RequestImap(-1392451243)
-RequestImap(-1392793470)
 RequestImap(-1393565861)
 RequestImap(-1394479903)
 RequestImap(-1395712024)
@@ -1283,13 +1486,11 @@ RequestImap(-1426249148)
 RequestImap(-1433138716)
 RequestImap(-1434912930)
 RequestImap(-1435884039)
-RequestImap(-1436188587)
 RequestImap(-1436313374)
-RequestImap(-1437554707)
 RequestImap(-1439987356)
 RequestImap(-1445186253)
 RemoveImap(-1448947307)
-RequestImap(-1451954802)
+RemoveImap(-1451954802)  -- Mountain Visual Bug
 RequestImap(-1452136643)
 RequestImap(-1453850836)
 RequestImap(-1461922204)
@@ -1297,15 +1498,12 @@ RequestImap(-1465375517)
 RemoveImap(-1466172032) --Grassy Patches around the Area LUMBER STORE CABIN
 RequestImap(-1466175146)
 RequestImap(-1466334531)
-RequestImap(-1471527776)
 RequestImap(-1472352094)
 RequestImap(-1473336090)
 RequestImap(-1484530238)
 RequestImap(-1484676996)
 RequestImap(-1490034522)
-RequestImap(-1490939730)
 RequestImap(-1496155572)
-RequestImap(-149795084)
 RequestImap(-1499162505)
 RequestImap(-1501864740)
 RequestImap(-1508256931)
@@ -1322,7 +1520,6 @@ RequestImap(-1535282356)
 RequestImap(-1535722316)
 RequestImap(-1536198599)
 RequestImap(-1537525865)
-RequestImap(-1541842872)
 RequestImap(-1554566073)
 RequestImap(-1559012672)
 RemoveImap(-1559513478) --Tent + Tent Frames LUMBER STORE CABIN
@@ -1334,20 +1531,17 @@ RequestImap(-1560636071)
 RequestImap(-1562347907)
 RequestImap(-1562607865)
 RequestImap(-1563072795)
-RequestImap(-1569624057)
 RequestImap(-15722296)
 RequestImap(-1576393943)
 RequestImap(-1583923165)
 RequestImap(-1588780614)
 RequestImap(-1588838395)
-RequestImap(-1593160175)
 RequestImap(-1595003151)
 RequestImap(-159723514)
 RequestImap(-1603329230)
 RequestImap(-1611076340)
 RequestImap(-1613262779)
 RequestImap(-1613805696)
-RequestImap(-1614141377)
 RequestImap(-1615749463)
 RequestImap(-1618574684)
 RequestImap(-1619008260)
@@ -1358,7 +1552,6 @@ RequestImap(-1625703283)
 RequestImap(-1626434823)
 RequestImap(-163883900)
 RequestImap(-1639384288)
-RequestImap(-1640200357)
 RequestImap(-164693058) -- LUMBER STORE CABIN -- COOKING POT
 RequestImap(-1653831205)
 RequestImap(-1656346086)
@@ -1391,9 +1584,7 @@ RequestImap(-1754541271)
 RequestImap(-1754970007)
 RequestImap(-1758697759)
 RequestImap(-1762770596)
-RequestImap(-1766409506)
 RequestImap(-1773409329)
-RequestImap(-1778044697)
 RequestImap(-1781246069)
 RequestImap(-1781252352)
 RequestImap(-1781758360)
@@ -1407,7 +1598,6 @@ RequestImap(-1798733774)
 RequestImap(-1799943886)
 RequestImap(-1801047945)
 RequestImap(-1802096589)
-RequestImap(-1809365172)
 RequestImap(-1809571159)
 RequestImap(-1815023148)
 RequestImap(-1816233372)
@@ -1423,17 +1613,14 @@ RequestImap(-1841279810)
 RequestImap(-1842411116)
 RequestImap(-1848077772)
 RequestImap(-184821200)
-RequestImap(-1849681615)
 RequestImap(-1850873053)
 RequestImap(-1852056457)
 RequestImap(-1852256117)
 RequestImap(-1852293718)
 RequestImap(-1854368742)
-RequestImap(-1859373348)
 RequestImap(-1859413313)
 RequestImap(-186143124)
 RequestImap(-1865650458)
-RequestImap(-1869016398)
 RequestImap(-1872364931)
 RequestImap(-1872939092)
 RequestImap(-1873685184)
@@ -1453,7 +1640,6 @@ RequestImap(-1920340119)
 RequestImap(-1923021027)
 RequestImap(-1923126393)
 RequestImap(-1924933663)
-RequestImap(-1926787493)
 RemoveImap(-1926989471)
 RequestImap(-1928361302)
 RequestImap(-1930879809)
@@ -1471,7 +1657,6 @@ RequestImap(-1960338341)
 RequestImap(-1960392600)
 RequestImap(-1960936248)
 RequestImap(-1962893335)
-RequestImap(-1966238128)
 RequestImap(-1967848432)
 RequestImap(-1971474291)
 RequestImap(-1973910443)
@@ -1502,18 +1687,14 @@ RequestImap(-2029001482)
 RequestImap(-2035177903)
 RequestImap(-2037324418)
 RequestImap(-2037661155)
-RequestImap(-2040493861)
 RequestImap(-2041779893)
 RemoveImap(-2042475701) --Wagon Crash
-RequestImap(-2043326480)
 RemoveImap(-2045964586)
-RequestImap(-2048221620)
 RequestImap(-2051019414)
 RequestImap(-2051059045)
 RequestImap(-2051158745)
 RequestImap(-205116461)
 RequestImap(-2052582076)
-RequestImap(-2053475031)
 RequestImap(-2053832767)
 RequestImap(-2053999329)
 RequestImap(-2054476413)
@@ -1542,7 +1723,6 @@ RequestImap(-2111718052)
 RequestImap(-2112989134)
 RequestImap(-2116397290)
 RequestImap(-2116659774)
-RequestImap(-2117963426)
 RequestImap(-2118853492)
 RequestImap(-2122297972)
 RequestImap(-2122914678)
@@ -1554,12 +1734,10 @@ RequestImap(-2137016051)
 RequestImap(-2139410267)
 RequestImap(-2142987163)
 RequestImap(-2147051362)
-RequestImap(-217646849)
 RequestImap(-21876618)
 RequestImap(-223199122)
 RequestImap(-223906810)
 RequestImap(-225844616)
-RequestImap(-232598845)
 RequestImap(-236914211)
 RequestImap(-242247633)
 RequestImap(-24665995)
@@ -1573,7 +1751,6 @@ RequestImap(-273633290)
 RequestImap(-276247702)
 RequestImap(-276524767)
 RequestImap(-278745837)
-RequestImap(-279703229)
 RequestImap(-282972514)
 RequestImap(-284612948)
 RequestImap(-290546285)
@@ -1582,11 +1759,9 @@ RequestImap(-299265919)
 RequestImap(-302735166)
 RequestImap(-307327135)
 RequestImap(-313259746)
-RequestImap(-313831898)
 RequestImap(-313992757)
 RequestImap(-315113250)
 RequestImap(-316909020)
-RequestImap(-317096325)
 RequestImap(-320403109)
 RequestImap(-327708229)
 RequestImap(-329705198)
@@ -1619,8 +1794,6 @@ RemoveImap(-393583941) --wagon on street by barbershop
 RequestImap(-395621323)
 RequestImap(-402976431)
 RequestImap(-407068688)
-RequestImap(-407402757)
-RequestImap(-408234235)
 RequestImap(-411006854)
 RequestImap(-41173958)
 RequestImap(-412827149)
@@ -1629,7 +1802,6 @@ RequestImap(-414301703)
 RequestImap(-414377604)
 RequestImap(-415281478)
 RequestImap(-415514741)
-RequestImap(-419935200)
 RequestImap(-421457898)
 RequestImap(-421730990)
 RequestImap(-425834853)
@@ -1646,8 +1818,6 @@ RequestImap(-451832572)
 RequestImap(-454287921)
 RemoveImap(-455342387)
 RequestImap(-456215895)
-RequestImap(-459648718)
-RequestImap(-468702164)
 RemoveImap(-473077489)
 RequestImap(-474761969)
 RequestImap(-476377037)
@@ -1690,7 +1860,6 @@ RequestImap(-551038153)
 RequestImap(-553189820)
 RequestImap(-554880142)
 RequestImap(-555683060)
-RequestImap(-555917871)
 RequestImap(-557729610)
 RequestImap(-557964826)
 RequestImap(-558920293)
@@ -1705,7 +1874,6 @@ RequestImap(-584332967)
 RequestImap(-584714922)
 RequestImap(-586415580)
 RequestImap(-588668690)
-RequestImap(-590227673)
 RequestImap(-591921971)
 RequestImap(-592147003)
 RemoveImap(-593183975) --Various Bottles and spitoons LUMBER STORE CABIN
@@ -1727,7 +1895,6 @@ RequestImap(-620856989)
 RequestImap(-621187540)
 RequestImap(-621941030)
 RequestImap(-622475043)
-RequestImap(-623091266)
 RequestImap(-624201308)
 RequestImap(-626724117)
 RemoveImap(-630275010) -- Campfire missing Stewpot LUMBER STORE CABIN
@@ -1736,7 +1903,6 @@ RequestImap(-634291786)
 RequestImap(-636161219)
 RequestImap(-638481378)
 RequestImap(-639956757)
-RequestImap(-642132908)
 RequestImap(-643041038)
 RequestImap(-643411908)
 RequestImap(-646014955)
@@ -1756,11 +1922,8 @@ RequestImap(-687151759)
 RequestImap(-688011628)
 RequestImap(-688744902)
 RequestImap(-688890765)
-RequestImap(-689352221)
 RemoveImap(-691393565)
 RequestImap(-693870347)
-RequestImap(-694809996)
-RequestImap(-696422730)
 RequestImap(-697003681)
 RequestImap(-697307430)
 RequestImap(-701897747)
@@ -1769,7 +1932,6 @@ RequestImap(-706937940)
 RequestImap(-708550718)
 RequestImap(-710506752)
 RequestImap(-710911638)
-RequestImap(-711890106)
 RequestImap(-716370751)
 RequestImap(-717025835)
 RequestImap(-718318645)
@@ -1783,7 +1945,6 @@ RequestImap(-739334986)
 RequestImap(-739754595)
 RequestImap(-741769242)
 RequestImap(-744260705)
-RequestImap(-745087561)
 RequestImap(-745860880)
 RequestImap(-750963311)
 RequestImap(-753454183)
@@ -1794,7 +1955,6 @@ RequestImap(-755250900)
 RequestImap(-758463889)
 RequestImap(-760097927)
 RequestImap(-763069375)
-RequestImap(-763678874)
 RequestImap(-76573194)
 RequestImap(-76700394)
 RequestImap(-770240157)
@@ -1825,10 +1985,8 @@ RequestImap(-817060178)
 RequestImap(-817579246)
 RequestImap(-820486040)
 RequestImap(-821741560)
-RequestImap(-822172378)
 RemoveImap(-826466486) -- Spitoons and Bottles Clutter LUMBER STORE CABIN
 RequestImap(-826493765)
-RequestImap(-828094297)
 RequestImap(-833696851)
 RequestImap(-833857740)
 RequestImap(-835014781)
@@ -1838,7 +1996,6 @@ RequestImap(-838184752)
 RequestImap(-84124751)
 RequestImap(-846230557)
 RequestImap(-846371468)
-RequestImap(-848315456)
 RequestImap(-848533860)
 RequestImap(-855912354)
 RequestImap(-856826868)
@@ -1888,17 +2045,13 @@ RequestImap(-947895270)
 RemoveImap(-948615309)
 RequestImap(-952533419)
 RequestImap(-953275122)
-RequestImap(-957510885)
 RequestImap(-960136064)
 RequestImap(-960337247)
 RequestImap(-960397707)
-RequestImap(-961488528)
 RequestImap(-963708270)
 RequestImap(-964156415)
 RequestImap(-971625396)
-RequestImap(-981684452)
 RequestImap(-981873755) -- LUMBER STORE CABIN -- GRASS AROUND TENTS
-RequestImap(-983957271)
 RequestImap(-985843618)
 RequestImap(-98843293)
 RequestImap(-991619789)
@@ -1911,7 +2064,6 @@ RequestImap(1014446371)
 RequestImap(1017072544)
 RequestImap(1020450527)
 RequestImap(1023328345)
-RequestImap(1025787994)
 RequestImap(1029525997)
 RequestImap(1033367448)
 RequestImap(103750283)
@@ -1922,11 +2074,9 @@ RequestImap(1048790253)
 RequestImap(1048845581)
 RequestImap(1049849921)
 RequestImap(105236016)
-RequestImap(105426297)
 RequestImap(1060557512)
 RequestImap(1062381624)
 RequestImap(106249677)
-RequestImap(1069611813)
 RequestImap(107317036)
 RequestImap(1078633574)
 RequestImap(1079213989)
@@ -1934,9 +2084,7 @@ RequestImap(1079303588)
 RequestImap(1082980257)
 RequestImap(1091543855)
 RequestImap(1092530042)
-RequestImap(1102643191)
 RequestImap(1103365569)
-RequestImap(1104800593)
 RequestImap(1104817207)
 RequestImap(1108015391)
 RequestImap(1108342912)
@@ -1946,7 +2094,6 @@ RequestImap(1111495201)
 RequestImap(1117165375)
 RequestImap(1121956769)
 RequestImap(1122045165)
-RequestImap(1122583474)
 RequestImap(112266538)
 RequestImap(1123990218)
 RequestImap(1128276345)
@@ -1962,19 +2109,16 @@ RequestImap(1155877447)
 RequestImap(1157066259)
 RequestImap(1157155867)
 RequestImap(1160690623)
-RequestImap(116162819)
 RequestImap(1169154818)
 RequestImap(1171197889)
 RequestImap(1171226610)
 RequestImap(1173232190)
 RequestImap(1174496881)
 RequestImap(1175400068)
-RequestImap(1182205549)
 RequestImap(1184975829)
 RequestImap(1186551862)
 RequestImap(1189709192)
 RequestImap(1190000937)
-RequestImap(1190076410)
 RequestImap(1191890045)
 RequestImap(1192526031)
 RequestImap(1193151399)
@@ -1994,7 +2138,6 @@ RequestImap(123244896)
 RequestImap(1234648758)
 RequestImap(1236490949)
 RequestImap(1239191982)
-RequestImap(1251358153)
 RequestImap(1251859782)
 RequestImap(1251925821)
 RequestImap(1252084553)
@@ -2018,19 +2161,13 @@ RequestImap(1289304923)
 RequestImap(1290812287)
 RequestImap(129717520)
 --RequestImap(1299817544)
-RequestImap(1305415261)
 RequestImap(1308321372)
 RequestImap(1311508924)
-RequestImap(1311984381)
 RequestImap(1312163721)
-RequestImap(1314976319)
 RequestImap(132414998)
 RequestImap(1324480450)
 RequestImap(1325716092)
 RequestImap(1331438832)
-RequestImap(-70965904) -- Doors to Fire Building in Guarma
---RequestImap(1332067900) -- Messy Roof for Fire Building in Guarma
-RemoveImap(1332067900) -- See Above
 RequestImap(1335714585)
 RequestImap(1337703077)
 RequestImap(1344772301)
@@ -2052,7 +2189,6 @@ RequestImap(137316925)
 RequestImap(1381006186)
 RequestImap(1381573999)
 RequestImap(1386355334)
-RequestImap(1387226336)
 RemoveImap(138913863) --Broken Fence Detailed LUMBER STORE CABIN
 RemoveImap(748023752) --LOD Broken Fence for STable LUMBER STORE CABIN
 RequestImap(1393010249)
@@ -2070,7 +2206,6 @@ RemoveImap(1412515639)
 RequestImap(1415119588)
 RequestImap(1416094782)
 RequestImap(1419819915)
-RequestImap(1423158124)
 RequestImap(1423450469)
 RequestImap(1423912753)
 RequestImap(1424082059)
@@ -2087,8 +2222,6 @@ RequestImap(1453569688)
 RequestImap(1454866069)
 RequestImap(1455068616)
 RequestImap(1457661960)
-RequestImap(1459136338)
-RequestImap(1460466036)
 RequestImap(1461000451)
 RequestImap(1461266126)
 RequestImap(1464851585)
@@ -2097,9 +2230,7 @@ RequestImap(1466088082)
 RequestImap(146746575)
 RequestImap(1467466015)
 RequestImap(1467687992)
-RequestImap(1471226731)
 RequestImap(1473078398)
-RequestImap(1475089455)
 RequestImap(1475953931)
 RequestImap(1480174383)
 RequestImap(1489268640)
@@ -2124,23 +2255,18 @@ RequestImap(1527084472)
 RequestImap(1527202601)
 RequestImap(1529136698)
 RequestImap(1529455145)
-RequestImap(1531008020)
 RequestImap(1532009326)
 RequestImap(1532041436)
-RequestImap(1537844205)
 RequestImap(1542551103)
 RequestImap(154479184)
 RequestImap(1546110128)
-RequestImap(1547347496)
 RequestImap(1547403545)
 RequestImap(1547994518)
 RequestImap(1548242606)
 RequestImap(1548546221)
-RequestImap(1552753100)
 RequestImap(1557076971)
 RequestImap(1557698400)
 RequestImap(1560807181)
-RequestImap(1561231200)
 RequestImap(1567139024)
 RequestImap(1575123584)
 RequestImap(1576931820)
@@ -2154,7 +2280,6 @@ RequestImap(1588507579)
 RequestImap(1589293578)
 RequestImap(1590446437)
 RequestImap(1596089211)
-RequestImap(1597665303)
 --RequestImap(1598834669)
 RequestImap(159921796)
 RequestImap(1601053042)
@@ -2167,7 +2292,6 @@ RequestImap(1624069429)
 RequestImap(1628286919)
 RequestImap(163126540)
 RequestImap(1635537886)
-RequestImap(1636184722)
 RequestImap(1638937672)
 RequestImap(1647812004)
 RequestImap(1648013752)
@@ -2181,7 +2305,6 @@ RequestImap(1679182807)
 RequestImap(1683033662)
 RequestImap(1687083522)
 RequestImap(1688216398)
-RequestImap(1694736240)
 RequestImap(1696372169)
 RequestImap(1700234797)
 RequestImap(170282000)
@@ -2248,7 +2371,6 @@ RequestImap(1826022799)
 RequestImap(1831175752)
 RequestImap(1833824812)
 RequestImap(18369533)
-RequestImap(1840600379)
 RequestImap(1843301309)
 RequestImap(184476093)
 RequestImap(1849913721)
@@ -2258,7 +2380,6 @@ RequestImap(1856368424)
 RequestImap(1857501669)
 RequestImap(1859330882)
 RequestImap(1865439665)
-RequestImap(1867048850)
 RequestImap(1870870569)
 RequestImap(1871051363)
 RequestImap(1871261290)
@@ -2308,7 +2429,6 @@ RequestImap(1971923782)
 RequestImap(1975720265)
 RequestImap(1977031606)
 RequestImap(1986073536)
-RequestImap(1987335384)
 RequestImap(1988923494)
 RequestImap(1989203268)
 RequestImap(1991621063)
@@ -2333,7 +2453,6 @@ RequestImap(2022451711)
 RequestImap(2026630914)
 RequestImap(2029194243)
 RequestImap(2033090463)
-RequestImap(2035758463)
 RequestImap(2035942164)
 RequestImap(2036492390)
 RequestImap(2038589758)
@@ -2361,7 +2480,6 @@ RequestImap(2079207010)
 RequestImap(2082890965)
 RequestImap(2084338579)
 RequestImap(2094371528)
-RequestImap(2095421392)
 RequestImap(2096286828)
 RequestImap(2097480406)
 RequestImap(2097700639)
@@ -2385,7 +2503,6 @@ RequestImap(212587871)
 RequestImap(2126897368)
 RequestImap(2130187273)
 RequestImap(2133280389)
-RequestImap(2136811572)
 RequestImap(213881095)
 RequestImap(2144414063)
 RequestImap(216214729)
@@ -2398,7 +2515,6 @@ RequestImap(24859476)
 RequestImap(25328693)
 RequestImap(25498969)
 RequestImap(255093300)
-RequestImap(255767990)
 RequestImap(258104717)
 RequestImap(262039053)
 RequestImap(263133813)
@@ -2440,13 +2556,11 @@ RequestImap(341106871)
 RequestImap(350637317)
 RequestImap(352816221)
 RequestImap(354638936)
-RequestImap(360408116)
 RequestImap(360721137)
 RequestImap(363257921)
 RequestImap(364962188)
 RequestImap(366542865)
 RequestImap(371690004)
-RequestImap(372806894)
 RequestImap(375693548)
 RequestImap(37622013)
 RequestImap(376665102)
@@ -2467,24 +2581,19 @@ RemoveImap(409171062)
 RequestImap(409306948)
 RemoveImap(411846009) -- Barrels on street by Barbershop Blackwater
 RemoveImap(-1394364678) -- LOD Wagon on Street by Barbershop
-RequestImap(413309170)
 RequestImap(414622870)
 RequestImap(416759610)
 RequestImap(416864911)
 RequestImap(418666411)
-RequestImap(41956969)
 RequestImap(42081460)
 RequestImap(422167750)
 RequestImap(425205960)
-RequestImap(427220750)
 RequestImap(431365499)
 RequestImap(432272547)
 RequestImap(434145706)
 RequestImap(437660121)
 RequestImap(441668603)
-RequestImap(44502487)
 RequestImap(446073162)
---RequestImap(45121961)
 RequestImap(453346329)
 RequestImap(458453080) --Camfire LUMBER STORE CABIN TENTS AREA
 RequestImap(461989174)
@@ -2519,7 +2628,6 @@ RequestImap(516308968)
 RequestImap(516817794)
 RequestImap(519905064)
 RequestImap(526763180)
-RequestImap(531106429)
 RequestImap(531960211)
 RequestImap(532770666)
 RequestImap(536714458)
@@ -2535,7 +2643,6 @@ RequestImap(556610581)
 RequestImap(556704039)
 RequestImap(557551306)
 RequestImap(558651865)
-RequestImap(560821199)
 RequestImap(561187138)
 RequestImap(562620119)
 RequestImap(563944718)
@@ -2550,7 +2657,6 @@ RequestImap(588746212)
 RequestImap(591001924)
 RequestImap(593772301)
 RequestImap(59954835)
---RequestImap(603871447) -- Fire on Building in Guarma
 RemoveImap(603871447)
 RequestImap(607173790)
 RequestImap(607574432)
@@ -2558,11 +2664,8 @@ RequestImap(612040624)
 RequestImap(616706228)
 RequestImap(621272158)
 RequestImap(622597018)
-RequestImap(629519239)
 RequestImap(633503129)
 RequestImap(634831342)
-RequestImap(634920011)
-RequestImap(637861796)
 RequestImap(642301973)
 RequestImap(643415268)
 RequestImap(647011769)
@@ -2574,7 +2677,6 @@ RequestImap(661576070)
 RemoveImap(66382979)
 RequestImap(66523468)
 RequestImap(666617953)
-RequestImap(668976634)
 RequestImap(669655585)
 RequestImap(67198036)
 RequestImap(672931117)
@@ -2584,7 +2686,6 @@ RequestImap(688413808)
 RequestImap(690962168)
 RequestImap(695709062)
 RequestImap(698067861)
-RequestImap(702867922)
 RequestImap(705065993)
 RequestImap(706203603)
 -- Lumber Store Cabin IPLS
@@ -2612,9 +2713,7 @@ RequestImap(748846068)
 RequestImap(749968899)
 RequestImap(751578549)
 RequestImap(752665876)
-RequestImap(753181111)
 RemoveImap(758066107) --LUMBER STORE CABIN Early Construction Version Detailed
-RequestImap(765141292)
 RequestImap(765343099)
 RequestImap(767293177)
 RemoveImap(767505137) -- Various Stumps near LUMBER STORE CABIN 
@@ -2633,7 +2732,6 @@ RequestImap(787640784)
 RequestImap(794749213)
 RequestImap(795060201)
 RequestImap(801042892)
-RequestImap(806681228)
 RequestImap(807262958)
 RequestImap(808313916)
 RequestImap(808576710)
@@ -2655,7 +2753,6 @@ RequestImap(859352269)
 RequestImap(869642051)
 RequestImap(870580095) --Unbroken fence for Stables detailed v2
 RequestImap(629133609) -- Unbroken Fence for Stables LOD v2 LUMBER STORE CABIN
-RequestImap(872406077)
 RequestImap(874022542)
 RequestImap(882236853)
 RequestImap(883152450)
@@ -2671,10 +2768,8 @@ RequestImap(905216692)
 RequestImap(906570755)
 --RequestImap(910941329)
 RequestImap(912202325)
-RequestImap(913170302)
 RequestImap(913995529)
 RequestImap(917434281)
-RequestImap(918349577)
 RequestImap(920427419)
 RequestImap(92080743)
 RequestImap(923572416)
@@ -2693,13 +2788,10 @@ RequestImap(945532872)
 RequestImap(948877318)
 RequestImap(951314072)
 RequestImap(952753807)
-RequestImap(955352710)
 RequestImap(957052101)
 RequestImap(964593693)
-RequestImap(966418260)
 RequestImap(96746001)
 RequestImap(967935536)
-RequestImap(968084866)
 RequestImap(970924250)
 RequestImap(976283842)
 RequestImap(976641588)
